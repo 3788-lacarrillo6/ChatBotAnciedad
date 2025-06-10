@@ -39,7 +39,7 @@ def agent():
         response = step["messages"][-1].content
 
     return jsonify({"response": response})
-
+#Comentario
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
 
